@@ -1,0 +1,9 @@
+name: Sok
+version: 1.0-SNAPSHOT
+main: com.spectralmark.mcdev.sok.Sok
+authors: [SpectralMark]
+description: Crafting and Additions
+commands:
+  healme:
+    description: Heal the User
+    usage: /healme
