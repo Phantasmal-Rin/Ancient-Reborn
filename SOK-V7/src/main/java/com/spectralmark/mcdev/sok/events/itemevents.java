@@ -14,5 +14,11 @@ public class itemevents implements Listener {
         Player player = event.getPlayer();
         ci.giveItems(player);
     }
+    
+    @EventHandler
+    OnPlayerJoin(PlayerJoinEvent event){
+    Player player =event.getplayer(); 
+    player.sendmessage.chatcolor.PURPLE("Oranis Requires optifine for a full experance, please download it. If you wish to know how or why click here.")
 
 }
+
