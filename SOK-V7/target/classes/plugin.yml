@@ -7,3 +7,6 @@ commands:
   healme:
     description: Heal the User
     usage: /healme
+  ci-list:
+    description: list weapons and there commands
+    usage: /ci-list
