@@ -9,7 +9,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class events implements Listener {
 
     @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent event)
+    public void onJoin(PlayerJoinEvent event)
     {Player player = event.getPlayer();
         if(player.hasPlayedBefore() == false){
             player.sendMessage(ChatColor.GOLD + "Oranis Requires Optifne for a full experience");
