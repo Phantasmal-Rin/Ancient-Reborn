@@ -1,0 +1,4 @@
+name: Ancients Reborn
+version: ${project.version}
+main: phantasmalrin.ancientsreborn.AncientsReborn
+description: Oranis Custom
