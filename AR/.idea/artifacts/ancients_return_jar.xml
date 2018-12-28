@@ -1,8 +1,9 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="ancients-return:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/ancients_return_jar</output-path>
+    <output-path>$USER_HOME$/Desktop/Desktop Clutter/Plugin Test Enviroment 1.12.2/plugins</output-path>
     <root id="archive" name="AR.jar">
       <element id="module-output" name="AR" />
+      <element id="library" level="project" name="Maven: org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT" />
     </root>
   </artifact>
 </component>
