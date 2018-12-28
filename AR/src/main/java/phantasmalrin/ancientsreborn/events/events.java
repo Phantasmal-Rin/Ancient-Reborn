@@ -9,13 +9,16 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class events implements Listener {
 
     @EventHandler
-    public void onJoin(PlayerJoinEvent event)
-    {Player player = event.getPlayer();
-        if(player.hasPlayedBefore() == false){
+    public void onJoin(PlayerJoinEvent event) {
+        Player player = event.getPlayer();
+
+        boolean hasjoined = player.hasPlayedBefore();
+
+        if (!hasjoined) {
             player.sendMessage(ChatColor.GOLD + "Oranis Requires Optifne for a full experience");
-        }
-        if(player.hasPlayedBefore() == true){
+        } else {
             player.sendMessage(ChatColor.GOLD + "Please Enable Optifine");
         }
     }
 }
+
